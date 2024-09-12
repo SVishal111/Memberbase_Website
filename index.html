@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memberbase Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+
+    <nav class="navBar">
+        <input type="checkbox" id="check">
+        <div class="logoSpace">
+            <figure class="logo">
+                <img src="./images/Memberbase Logo.svg" alt="ErrorMemberbaseLogo">
+            </figure>
+            <div class="searchBar">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <p>Search Resources</p>
+            </div>
+        </div>
+        <div class="navLinks">
+            <ul>
+                <li><a href="#resources">All Resources</a></li>
+                <li><a href="#logIn">Log In</a></li>
+                <button><a href="#signUp">Free Sign Up</a></button>
+            </ul>
+        </div>
+        <label for="check" class="checkbtn">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+    </nav>
+
+    <header>
+        <div class="heroSection" id="logIn">
+            <div class="jumbotron">
+                <h1>Access a library of free design resources</h1>
+                <p>The best resources and books from around the web, collected and curated for your reading.</p>
+                <button><a href="#">Get Access Now</a></button>
+            </div>
+            <figure class="designSymbol">
+                <img src="./images/Memberbase Herosection Logo.svg" alt="ErrorPngImage">
+            </figure>
+        </div>
+    </header>
+
+    <main>
+        <section class="resources" id="resources">
+            <div class="resourcesHeader">
+                <h2>Featured Resources</h2>
+            </div>
+            <div class="cardContainer">
+
+                <div class="card">
+                    <figure class="cardHeader">
+                        <img src="./images/Memberbase Resource 1.svg" alt="ErrorResource1">
+                    </figure>
+                    <div class="cardBody">
+                        <p>By Nikolai Bain</p>
+                        <h3>Grids & Alignment</h3>
+                        <p>Expedita laborum suscipit sequi et nobis voluptas fuga placeat. Omnis est ratione.
+                            Repellendus recusandae a. Nulla quia cum aliquam dolores beatae tempore harum pariatur.
+                            Velit amet officiis.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <figure class="cardHeader">
+                        <img src="./images/Memberbase Resource 2.svg" alt="ErrorResource2">
+                    </figure>
+                    <div class="cardBody">
+                        <p>By Maxwell Milton</p>
+                        <h3>Remote Work for Design Teams</h3>
+                        <p>Repudiandae asperiores excepturi repellat minus id et. Saepe molestiae accusantium fugit et
+                            aut. Reicie</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <figure class="cardHeader">
+                        <img src="./images/Memberbase Resource 3.svg" alt="ErrorResource3">
+                    </figure>
+                    <div class="cardBody">
+                        <p>By Franko Realguy</p>
+                        <h3>Design System in Product Teams</h3>
+                        <p>Ut libero molestias excepturi veniam et dicta assumenda tenetur voluptatem. Qui dolor
+                            officiis eum. Doloribus odit qui quia blanditiis omnis asperiores perspiciatis qui deleniti.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <figure class="cardHeader">
+                        <img src="./images/Memberbase Resource 4.svg" alt="ErrorResource4">
+                    </figure>
+                    <div class="cardBody">
+                        <p>By Nikolai Bain</p>
+                        <h3>All in One Color Handbook</h3>
+                        <p>Vel esse et temporibus inventore alias assumenda. Repellat sit accusamus id sed est animi
+                            vel. Odit non ut reprehenderit consequatur sit aliquam. Aut aliquid consequatur</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <figure class="cardHeader">
+                        <img src="./images/Memberbase Resource 5.svg" alt="ErrorResource5">
+                    </figure>
+                    <div class="cardBody">
+                        <p>By Tim Tommons</p>
+                        <h3>Digital Wellbeing and Support</h3>
+                        <p>Dignissimos dolores enim ipsum quia occaecati voluptas aut delectus. Reiciendis recusandae
+                            minima quod qui. Eum dicta et nihil ad et nam. Vitae et itaque porro. Ipsa distinctio
+                            laboriosam veritatis. Minus quia eos ut.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="subscribe" id="signUp">
+            <div class="subscribeContent">
+                <h3>Get more great resources</h3>
+                <p>Get the Latest design resources from across the Web. <br> Straight to your Inbox.</p>
+                <form id="new-task-form">
+                    <input type="text" name="new-task-input" id="new-task-input" placeholder="Enter Your Email" />
+                    <input type="submit" id="new-task-submit" value="Subscribe" />
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section class="miscInfo">
+
+            <div class="brandInfo">
+                <figure class="logo">
+                    <img src="./images/Memberbase Logo.svg" alt="ErrorMemberbaseLogo">
+                </figure>
+                <p>Built by <a href="#">Vishal S</a></p>
+                <p>Powered by <a href="#">Nothing</a></p>
+                <h5>&copy; 2022 Memberbase. All Rights Reserved.</h5>
+            </div>
+
+            <div class="brandLinks">
+
+                <div class="links">
+                    <h4>WEBSITE</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Resources</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">EBook(CMS)</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="links">
+                    <h4>MEMBERSHIP</h4>
+                    <ul>
+                        <li><a href="#">Sign In</a></li>
+                        <li><a href="#">Sign Up</a></li>
+                        <li><a href="#">User Account</a></li>
+                        <li><a href="#">Reset Password</a></li>
+                    </ul>
+                </div>
+
+                <div class="links">
+                    <h4>ADMIN</h4>
+                    <ul>
+                        <li><a href="#">Style Guide</a></li>
+                        <li><a href="#">Licenses</a></li>
+                        <li><a href="#">Instructions</a></li>
+                        <li><a href="#">Password</a></li>
+                        <li><a href="#">404</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </section>
+    </footer>
+</body>
+
+</html>

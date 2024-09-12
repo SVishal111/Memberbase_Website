@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #1d1d1d;
+}
+
+/* Header Start */
+
+/* NavBar Start */
+
+header{
+    /* background-color: goldenrod; */
+    background-color: white;
+    width: 100%;
+
+    /* position: relative; */
+}
+.navBar{
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+
+    /* position: absolute; */
+
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.logoSpace{
+    margin-left: 100px;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 175px;
+}
+.logo img{
+    width: 100%;
+}
+.searchBar{
+    height: 30px;
+    width: 280px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgb(230, 230, 230);
+    border: 0.2px solid rgb(230, 230, 230);
+}
+.searchBar i{
+    font-size: 14px;
+    padding: 5px;
+    color: gray;
+}
+.searchBar p{
+    font-size: 14px;
+    color: gray;
+}
+.searchBar:hover{
+    border: 0.2px solid #c5c5c5;
+    transition: 0.3s;
+}
+.navLinks{
+    width: 30%;
+    margin-right: 100px;
+}
+.navLinks ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navLinks ul li{
+    list-style-type: none;
+}
+.navLinks ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #1d1d1d;
+    opacity: 0.7;
+    /* color: red; */
+}
+.navLinks ul li a:hover{
+    opacity: 1;
+    transition: 0.3s;
+}
+button{
+    border: none;
+    height: 35px;
+    width: 130px;
+    background-color: #1d1d1d;
+    border-radius: 8px;
+}
+button a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+button:hover{
+    background-color: #303030;
+    transition: 0.3s;
+}
+
+/* NavBar Ends */
+
+/* Herosection Start */
+
+.heroSection{
+    background-color: gray;
+    background-image: url("./images/Pastel\ Gradient\ BackGround\ image.webp");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.jumbotron{
+    /* background-color: chartreuse; */
+    width: 36.5%;
+    margin-left: 90px;
+}
+
+.jumbotron h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.jumbotron p{
+    font-size: 20px;
+    padding: 20px 0px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgb(34, 34, 34);
+}
+.jumbotron button{
+    height: 43px;
+    width: 190px;
+}
+
+.jumbotron button a{
+    font-size: 17px;
+    letter-spacing: 0.5px;
+}
+
+.designSymbol{
+    /* background-color: chartreuse; */
+    width: 35%;
+    margin-right: 100px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.designSymbol img{
+    width: 70%;
+}
+/* Herosection Ends */
+
+/* Header Ends */
+
+/* Main Starts */
+
+/* Resources Section Starts */
+
+.resources{
+    padding: 50px 100px;
+}
+
+.resourcesHeader{
+    padding: 20px 0px 50px 0px;
+}
+
+.resourcesHeader h2{
+    font-size: 30px;
+}
+
+.cardContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(265px, 2fr));
+    gap: 2rem;
+}
+
+.card{
+    height: auto;
+    max-width: 350px;
+}
+.cardHeader{
+    width: 100%;
+}
+.cardHeader img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.cardBody{
+    margin: 15px 0px;
+    background-color: #f1f1f1;
+}
+
+.cardBody p{
+    font-size: 15px;
+    color: rgb(94, 94, 94);
+    line-height: 1.5;
+}
+
+.cardBody h3{
+    font-size: 28px;
+    margin: 10px 0px;
+}
+
+.card:hover{
+    margin-top: -10px;
+    transition: 0.3s;
+    padding-bottom: 10px;
+}
+
+/* Resources Section Ends */
+
+/* Subscribe Section Starts */
+
+.subscribe{
+    background-color: #141414;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subscribeContent{
+    width: 50%;
+    text-align: center;
+    padding: 80px 0px;
+}
+.subscribeContent
+h3,p{
+    color: white;
+}
+.subscribeContent h3{
+    font-size: 38px;
+    font-weight: 400;
+}
+
+.subscribeContent p{
+    font-size: 20px;
+    letter-spacing: 0.6px;
+    line-height: 1.5;
+    font-weight: 300;
+    margin: 20px 0px;
+}
+
+#new-task-form {
+    display: flex;
+    padding: 0px 120px;
+    /* width: 120%; */
+}
+
+input {
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+#new-task-input {
+    flex: 1 1 0%;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-right: 10px;
+    color: black;
+    font-size: 1rem;
+    height: 43px;
+    width: 0px;
+}
+
+#new-task-input::placeholder {
+    color: rgb(143, 143, 143);
+}
+
+#new-task-submit {
+    color: white;
+    font-size: 16px;
+    /* font-weight: 700; */
+    background-color: rgb(100, 100, 100);
+    height: 43px;
+    width: 130px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+#new-task-submit:hover {
+    background-color: rgb(44, 44, 44);
+    transition: 0.3s;
+}
+
+/* Subscribe Section Ends*/
+
+/* Main Ends */
+
+/* Footer Starts */
+
+footer{
+    /* background-color: tomato; */
+    background-color: white;
+}
+
+.miscInfo{
+    padding: 80px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.brandInfo{
+    margin-left: 100px;
+}
+
+/* .brandInfo .logo{
+    width: 175px;
+}
+.logo img{
+    width: 100%;
+} */
+
+.brandInfo .logo img{
+    margin-bottom: 20px;
+}
+
+.brandInfo p{
+    font-size: 14px;
+    color: black;
+}
+
+.brandInfo p a{
+    text-decoration: none;
+    color: rgb(184, 176, 176);
+}
+
+.brandInfo h5{
+    margin-top: 20px;
+
+}
+
+.brandLinks{
+    margin-right: 100px;
+    width: 50%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+}
+
+.links ul li{
+    list-style-type: none;
+    line-height: 2;
+}
+
+.links ul li a{
+    text-decoration: none;
+}
+.links h4{
+    color: rgb(141, 137, 137);
+    margin-bottom: 15px;
+}
+.links a:hover{
+    opacity: 0.6;
+    transition: 0.3s;
+}
+/* Footer Ends */
