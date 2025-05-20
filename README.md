@@ -34,9 +34,9 @@ cd Memberbase_Website</code></pre>
 
 <h2>📎 Notes</h2>
 <ul>
-  <li>This project is not affiliated with Memberbase — it's a UI practice clone</li>
+  <li>This project is not affiliated with Memberbase or Webflow — it's a UI practice clone</li>
   <li>No JS is used here — it's all static</li>
-  <li>Great starting point for those building portfolios or learning web layout</li>
+  <li>Great starting point for those to get inspired in UI designing or learning Web layout</li>
 </ul>
 
 <p align="center">
